@@ -62,6 +62,9 @@ You can run attacks with the provided script:
 ```
 $ bash runner.sh
 ```
+### calculations
+
+all calculations were done on google colab or personal computers. 
 
 ## Licence
 
