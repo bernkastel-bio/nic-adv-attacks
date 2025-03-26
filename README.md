@@ -58,7 +58,8 @@ Then copy the directory `./CompressAI/compressai` to the `./ImageCompression_Adv
 ```
 $ cp -r ./compressai/ ./ImageCompression_Adversarial/
 ```
-You can run attacks with the provided script:
+You can run attacks with the provided script: \
+Before running, ensure, that you have changed path to image in scipt
 ```
 $ bash runner.sh
 ```
@@ -78,11 +79,15 @@ Gennady Shutkov, Alexey Morozov, Egor Miroshnichenko, Timur Nabiev, Razan Dibo
 
 ## Related works
 
-* Z. Cheng et al. 2020: https://github.com/ZhengxueCheng/Learned-Image-Compression-with-GMM-and-Attention
+* Z. Cheng et al., 2020: https://github.com/ZhengxueCheng/Learned-Image-Compression-with-GMM-and-Attention
 * Kodak image dataset: http://r0k.us/graphics/kodak/
-* https://arxiv.org/pdf/1412.6572
-* https://arxiv.org/abs/1607.02533
-* https://arxiv.org/pdf/1710.06081
+* Tong Chen, Zhan Ma, 2023: https://arxiv.org/pdf/2112.08691
+* Ian J. Goodfellow, Jonathon Shlens, Christian Szegedy, 2015: https://arxiv.org/pdf/1412.6572
+* Alexey Kurakin, Ian Goodfellow, Samy Bengio, 2017: https://arxiv.org/abs/1607.02533
+* Yinpeng Dong et al., 2018: https://arxiv.org/pdf/1710.06081
+* CompressAI repository: https://github.com/InterDigitalInc/CompressAI
+* ImageCompression_Adversarial repository: https://github.com/tongxyh/ImageCompression_Adversarial
+
 
 
 
