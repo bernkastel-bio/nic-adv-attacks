@@ -39,8 +39,8 @@ $ conda list
 ```
 \
 After creating the environment with all dependencies you need to clone the following 2 repositories: \
-[CompressAI](https://github.com/InterDigitalInc/CompressAI): framework with image compression models
-[ImageCompression_Adversarial](https://github.com/tongxyh/ImageCompression_Adversarial): repository with image attack scripts
+* [CompressAI](https://github.com/InterDigitalInc/CompressAI): framework with image compression models \
+* [ImageCompression_Adversarial](https://github.com/tongxyh/ImageCompression_Adversarial): repository with image attack scripts
 ```
 $ git clone https://github.com/InterDigitalInc/CompressAI.git
 $ git clone https://github.com/tongxyh/ImageCompression_Adversarial.git
@@ -50,7 +50,10 @@ Then you need to build the CompressAI repo:
 $ cd CompressAI/
 $ pip install -e
 ```
-Ater that the files `_CXX.cpython-310-x86_64-linux-gnu.so` and `ans.cpython-310-x86_64-linux-gnu.so` must appear in compressai/ directory. 
+Ater that the following files must appear in compressai/ directory:
+* `_CXX.cpython-310-x86_64-linux-gnu.so`
+* `ans.cpython-310-x86_64-linux-gnu.so`
+\
 Then copy the directory `./CompressAI/compressai` to the `./ImageCompression_Adversarial`: 
 ```
 $ cp -r ./compressai/ ./ImageCompression_Adversarial/
@@ -66,7 +69,7 @@ nic_adv_attacks is licensed under the MIT License
 
 ## Authors
 
-Gennady Shutkov, Alexey Morozov, Egor Miroshnichenko, Timur Nabiev, Razan
+Gennady Shutkov, Alexey Morozov, Egor Miroshnichenko, Timur Nabiev, Razan Dibo
 
 ## Related works
 
