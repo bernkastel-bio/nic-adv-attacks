@@ -38,8 +38,8 @@ or
 $ conda list
 ```
 \
-After creating the environment with all dependencies you need to clone the following 2 repositories: \
-* [CompressAI](https://github.com/InterDigitalInc/CompressAI): framework with image compression models \
+After creating the environment with all dependencies you need to clone the following 2 repositories:
+* [CompressAI](https://github.com/InterDigitalInc/CompressAI): framework with image compression models
 * [ImageCompression_Adversarial](https://github.com/tongxyh/ImageCompression_Adversarial): repository with image attack scripts
 ```
 $ git clone https://github.com/InterDigitalInc/CompressAI.git
