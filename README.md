@@ -66,7 +66,7 @@ $ bash runner.sh
 
 all calculations were done on google colab or personal computers. 
 
-evaluation runs counter: 7
+evaluation runs counter: 20 (All results in the article are averaged over these launches)
 
 ## Licence
 
